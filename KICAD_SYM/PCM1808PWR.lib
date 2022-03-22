@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PCM1808PWR
+#
+DEF PCM1808PWR U 0 40 Y Y 1 L N
+F0 "U" -500 950 50 H V L BNN
+F1 "PCM1808PWR" -500 -1100 50 H V L BNN
+F2 "SOP65P640X120-14N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "TSSOP-14 Texas Instruments" 0 0 50 H I L BNN "Package"
+F5 "https://pricing.snapeda.com/search/part/PCM1808PWR/?ref=eda" 0 0 50 H I L BNN "Purchase-URL"
+F6 "PCM1808PWR" 0 0 50 H I L BNN "MP"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "In Stock" 0 0 50 H I L BNN "Availability"
+F9 "Texas Instruments" 0 0 50 H I L BNN "MF"
+F10 "99dB SNR Stereo ADC With Single-Ended Inputs 14-TSSOP -40 to 85" 0 0 50 H I L BNN "Description"
+DRAW
+S -500 -1000 500 900 0 0 10 f
+X FMT 12 -700 -300 200 R 40 40 0 0 I 
+X MD0 10 -700 -400 200 R 40 40 0 0 I 
+X MD1 11 -700 -500 200 R 40 40 0 0 I 
+X SCKI 6 -700 -100 200 R 40 40 0 0 I C
+X VINL 13 -700 400 200 R 40 40 0 0 I 
+X VINR 14 -700 300 200 R 40 40 0 0 I 
+X VREF 1 -700 100 200 R 40 40 0 0 I 
+X BCK 8 700 -400 200 L 40 40 0 0 B C
+X LRCK 7 700 -500 200 L 40 40 0 0 B C
+X VCC 3 -700 800 200 R 40 40 0 0 W 
+X VDD 4 -700 700 200 R 40 40 0 0 W 
+X DOUT 9 700 -300 200 L 40 40 0 0 O 
+X AGND 2 700 -800 200 L 40 40 0 0 W 
+X DGND 5 700 -900 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
